@@ -2,10 +2,13 @@
 Get updates for specified car model from Drive2.ru
 
 $ virtualenv .venv
+
 $ pip install requirements.txt
 
 $ python drive2_scrapy
+
 -->
+
 We have new one car from menzhik. See it here www.drive2.ru/r/lada/1595552/
 We have one new(or more|or less) record in 'Dizello' entry! Old was 7. New is 8. See it here www.drive2.ru/r/lada/1584642/
 We have one new(or more|or less) record in 'Celitel143' entry! Old was 7. New is 9. See it here www.drive2.ru/r/lada/1571403/

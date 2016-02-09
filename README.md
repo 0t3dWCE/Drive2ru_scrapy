@@ -1,12 +1,12 @@
 # Drive2ru_scrapy
-Get updates for specified car model from Drive2.ru
-
+### Get updates for specified car model from Drive2.ru
+```
 $ virtualenv .venv
 
 $ pip install requirements.txt
 
-$ python drive2_scrapy
-
+$ python drive2_scrapy.py
+```
 -->
 
 We have new one car from menzhik. See it here www.drive2.ru/r/lada/1595552/
@@ -28,6 +28,7 @@ We have one new(or more|or less) record in 'sergof' entry! Old was 7. New is 9. 
 
 
 
-You can specify drive2.ru model id (for example m_252 - Alfa Romeo Brera)
-
+### You can specify drive2.ru model id (for example m_252 - Alfa Romeo Brera)
+```
 $ python drive2_scrapy --d2_car_model_id m_252
+```
